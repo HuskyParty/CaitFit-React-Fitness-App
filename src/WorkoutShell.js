@@ -2,7 +2,7 @@ import React from 'react';
 import CaitFit from './CaitFit';
 import faker from 'faker';
 
-const DailyShort = (props) => {
+const WorkoutShell = (props) => {
     return (
 
         
@@ -11,7 +11,7 @@ const DailyShort = (props) => {
         {/*Icon*/}
         <h2 class="ui center aligned icon header">
             <i class="notched circle loading icon"></i>
-            Daily Cait-Circuit
+            {props.title}
         </h2>
 
         {/*Workout*/}
@@ -24,7 +24,7 @@ const DailyShort = (props) => {
                 </a>
                 </div>
                 <div class="list">
-                    <CaitFit />
+                    {props.children}
                 </div>
             </div>
         </div>
@@ -33,4 +33,4 @@ const DailyShort = (props) => {
         );
     };
 
-export default DailyShort
+export default WorkoutShell

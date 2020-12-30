@@ -1,3 +1,5 @@
+import React from 'react';
+
 const lightCardio = {
     'butt kicks': ['30 seconds', '40 seconds', '50 seconds','60 seconds'], 
     'jumping jacks': ['10 reps', '20 reps', '30 reps'], 
