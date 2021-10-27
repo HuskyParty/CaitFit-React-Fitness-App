@@ -61,26 +61,6 @@ function Home() {
             <IntroCard heading="Welcome to Cait-Fit.">
             Get yo sweat on!
             </IntroCard>
-                    
-
-            {/*Welcome Message
-            <div>
-                <br></br>
-                <h1 class="ui header centered">Welcome to Cait-Fit.</h1>
-                <br></br>
-                <div class="ui centered card">
-                    <div class="ui compact message">
-                        <div class="header">
-                            We are just here to get a quick workout in..
-                        </div>
-                        <ul>- knock out the daily circuit </ul>
-                        <ul>- post your time?</ul>
-                        <ul>- or just jump into the random circuit generator... you do you.</ul>
-                    </div>
-                </div>
-                <br></br>
-            </div>
-            */}
 
 
             {/*Daily Circuit*/}
@@ -90,11 +70,6 @@ function Home() {
             </WorkoutShell>
             <br></br>
                 
-
-            {/*Finisher
-            
-            <Finisher />
-            */}
         </div>
                     
     );
